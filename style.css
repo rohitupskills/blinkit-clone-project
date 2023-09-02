@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    font-family: Roboto !important;
+}
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    max-width: 112px;
+    font-size: 18px ;
+}
+.vertical-line{
+    height: 35px;
+    border-left: 2px solid rgb(206, 206, 206);
+}
+.location>p{
+    margin: 0;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.search-div{
+        padding: 0px 12px;
+        border: 1px solid rgb(232, 232, 232);
+        border-radius: 12px;
+        background: rgb(248, 248, 248);
+        color: rgb(130, 130, 130);
+ }
+ .search-div>input{
+    border: none;
+    background: rgb(248, 248, 248);
+    width:40vw ;
+    height: 45px;
+ }
+::placeholder{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+.my-cart{
+    background-color: #0d831e !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+.my-cart svg{
+    margin-right: 7px !important;
+}
+
+/* .hero-section{
+    background-image: url('https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=2700/layout-engine/2022-05/Group-33704.jpg');
+    height: 400px;
+} */
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu img {
+    height: 200px;
+    display: inline-block;
+    padding: 14px;
+  }
+  
+.product-section img{
+    height: 180px;
+    width: 125px;
+}
+
+div.scrollmenu-last {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu-last img {
+    height:150px;
+    display: inline-block;
+    padding: 14px;
+  }
+.text-gray{
+    color: rgb(180, 179, 179);
+}
+.red-icon{
+    color: red;
+}
+.card-body svg{
+    color: black;
+}
+  
+@media screen and (max-width:768px){
+    nav{
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px;
+    }
+    .vertical-line,.hero-section{
+        display: none !important;
+    }
+    div.scrollmenu img {
+        height: 100px;
+        display: inline-block;
+        padding: 14px;
+      }
+      div.scrollmenu {
+        overflow: auto;
+        white-space: wrap;
+      }
+     .product-section{
+        justify-content: center !important;
+        align-items: center !important;
+     }
+     .product-card{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+     }
+     .footer section{
+        text-align: center;
+        margin-top: 30px !important;
+     } 
+     
+    
+}
+@media screen and (max-width:1300px){
+    .hero-section>img{
+        width: 85vw;
+    }
+    nav{
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 20px;
+    }
+}
+  
