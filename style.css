@@ -85,6 +85,9 @@ div.scrollmenu-last {
 .card-body svg{
     color: black;
 }
+.footer-section{
+    margin-top: 30px !important;
+}
   
 @media screen and (max-width:768px){
     nav{
@@ -113,7 +116,7 @@ div.scrollmenu-last {
         justify-content: center !important;
         align-items: center !important;
      }
-     .footer section{
+     .footer-section{
         text-align: center;
         margin-top: 30px !important;
      } 
